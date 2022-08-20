@@ -5,13 +5,15 @@ module.exports = {
     extend: {
       gridTemplateAreas: {
         mdlayout: ['hero hero', 'sidebar content'],
-        smlayout: ['hero', 'sidebar', 'content'],
+        smlayout: ['navbar', 'content'],
       },
       gridTemplateColumns: {
         mdlayout: '300px 1fr',
+        smlayout: '1fr',
       },
       gridTemplateRows: {
         mdlayout: '400px 1fr',
+        smlayout: '4rem, 1fr',
       },
     },
   },

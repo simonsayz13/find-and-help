@@ -5,7 +5,7 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className='grid grid-areas-mdlayout grid-cols-mdlayout grid-rows-mdlayout h-full'>
+    <div className='grid grid-areas-smlayout grid-cols-smlayout grid-rows-smlayout md:grid-areas-mdlayout md:grid-cols-mdlayout md:grid-rows-mdlayout h-full'>
       <Hero />
       <Navbar />
       <Sidebar />
