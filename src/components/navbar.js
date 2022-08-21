@@ -1,5 +1,5 @@
 import React from 'react';
-import FilterBar from './filterbar';
+import FilterModal from './filtermodal';
 import Opportunity from './opportunity';
 
 const Navbar = () => {
@@ -11,14 +11,13 @@ const Navbar = () => {
       <div className='flex-none'>
         <ul className='menu menu-horizontal p-0'>
           <li>
-            <FilterBar />
+            <FilterModal />
           </li>
           <li>
             <Opportunity />
           </li>
         </ul>
       </div>
-      <input type='checkbox' id='my-modal' className='modal-toggle' />
     </div>
   );
 };

@@ -17,5 +17,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require('daisyui'), require('@savvywombat/tailwindcss-grid-areas')],
+  plugins: [
+    require('@tailwindcss/forms')({ strategy: 'class' }),
+    require('daisyui'),
+    require('@savvywombat/tailwindcss-grid-areas'),
+  ],
 };
