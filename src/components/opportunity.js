@@ -19,7 +19,7 @@ const Opportunity = () => {
             <label htmlFor='opportunity-modal' className='btn btn-ghost'>
               Cancel
             </label>
-            <label htmlFor='opportunity-modal' className='btn'>
+            <label htmlFor='opportunity-modal' className='btn btn-primary'>
               Submit
             </label>
           </div>

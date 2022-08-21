@@ -23,7 +23,7 @@ const OpportunityLg = () => {
             <label htmlFor='opportunity-modal-lg' className='btn btn-ghost'>
               Cancel
             </label>
-            <label htmlFor='opportunity-modal-lg' className='btn'>
+            <label htmlFor='opportunity-modal-lg' className='btn btn-primary'>
               Submit
             </label>
           </div>
