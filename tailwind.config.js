@@ -21,5 +21,6 @@ module.exports = {
     require('@tailwindcss/forms')({ strategy: 'class' }),
     require('daisyui'),
     require('@savvywombat/tailwindcss-grid-areas'),
+    require('@tailwindcss/line-clamp'),
   ],
 };

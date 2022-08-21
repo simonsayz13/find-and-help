@@ -4,9 +4,9 @@ import Opportunity from './opportunity';
 
 const Navbar = () => {
   return (
-    <div className='md:hidden navbar bg-base-100'>
+    <div className='sticky top-0 backdrop-blur-lg bg-opacity-80  md:hidden navbar bg-slate-400'>
       <div className='flex-1'>
-        <label className='normal-case text-xl'>Volunteer</label>
+        <label className='normal-case text-2xl pl-2 font-bold'>Volunteer</label>
       </div>
       <div className='flex-none'>
         <ul className='menu menu-horizontal p-0'>
