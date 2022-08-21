@@ -16,7 +16,7 @@ const FilterModal = () => {
           <Filter />
           <div className='modal-action'>
             <label htmlFor='filter-modal' className='btn'>
-              Filter Filter Baby
+              Close
             </label>
           </div>
         </div>

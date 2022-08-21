@@ -1,4 +1,5 @@
 import React from 'react';
+import NewOpportunityForm from './newOpportunityForm';
 
 const OpportunityLg = () => {
   return (
@@ -16,13 +17,14 @@ const OpportunityLg = () => {
       />
       <div className='modal'>
         <div className='modal-box'>
-          <h3 className='font-bold text-lg'>
-            Space to add new Volunteering Opportunities
-          </h3>
-          <p className='py-4'>Blah blah blah</p>
+          <h3 className='font-bold text-lg'>New Volunteering Opportunity</h3>
+          <NewOpportunityForm />
           <div className='modal-action'>
+            <label htmlFor='opportunity-modal-lg' className='btn btn-ghost'>
+              Cancel
+            </label>
             <label htmlFor='opportunity-modal-lg' className='btn'>
-              Yay!
+              Submit
             </label>
           </div>
         </div>

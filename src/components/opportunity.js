@@ -1,4 +1,5 @@
 import React from 'react';
+import NewOpportunityForm from './newOpportunityForm';
 
 const Opportunity = () => {
   return (
@@ -12,13 +13,14 @@ const Opportunity = () => {
       <input type='checkbox' id='opportunity-modal' className='modal-toggle' />
       <div className='modal'>
         <div className='modal-box'>
-          <h3 className='font-bold text-lg'>
-            Space to add new Volunteering Opportunities
-          </h3>
-          <p className='py-4'>Blah blah blah</p>
+          <h3 className='font-bold text-lg'>New Volunteering Opportunity</h3>
+          <NewOpportunityForm />
           <div className='modal-action'>
+            <label htmlFor='opportunity-modal' className='btn btn-ghost'>
+              Cancel
+            </label>
             <label htmlFor='opportunity-modal' className='btn'>
-              Yay!
+              Submit
             </label>
           </div>
         </div>
